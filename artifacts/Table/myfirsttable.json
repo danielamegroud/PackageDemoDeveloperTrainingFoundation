@@ -1,0 +1,53 @@
+{
+	"id": "b239f0a5-743d-4d9c-9fc0-55a773f35a45",
+	"createdAt": "2026-06-23T14:15:28.039Z",
+	"createdBy": "daniel",
+	"fields": [
+		{
+			"id": "bb6e9f38-b298-415c-aee6-4e53978ae7d7",
+			"fieldName": "accountid",
+			"fieldType": "uuid",
+			"isUnique": true
+		},
+		{
+			"id": "78c9b65f-a4b6-493c-9980-15c9e622c1e5",
+			"fieldName": "name",
+			"fieldType": "text",
+			"isUnique": false,
+			"default": "Dave"
+		},
+		{
+			"id": "a49e590d-1bac-4b08-bcf4-d35a76e63653",
+			"fieldName": "street",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "8b5c5c80-fc7d-4eff-a004-24f04284d234",
+			"fieldName": "country",
+			"fieldType": "text",
+			"isUnique": false,
+			"isNullable": true
+		},
+		{
+			"id": "8bc2ce7d-c621-4870-c356-66ac2549c9eb",
+			"fieldName": "phone",
+			"fieldType": "integer",
+			"isUnique": true,
+			"default": "123"
+		}
+	],
+	"indices": [],
+	"foreignKeys": [],
+	"vectorStoreConfig": {},
+	"name": "myfirsttable",
+	"description": null,
+	"ver": "26.06.23.1419",
+	"enableAudit": false,
+	"includeDataInPackage": false,
+	"package": "981fac3f-221c-4e0c-8b83-381272e0b662",
+	"generationStrategy": "uuid",
+	"rolesRead": [],
+	"rolesWrite": []
+}

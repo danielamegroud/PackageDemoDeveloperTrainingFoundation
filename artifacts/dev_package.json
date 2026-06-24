@@ -25,7 +25,18 @@
 	"api": [],
 	"odataSource": [],
 	"odataMock": [],
-	"dictionary": [],
+	"dictionary": [
+		{
+			"id": "e7d3cf9e-c3ec-4691-986b-da682dce644b",
+			"name": "mysecondtable",
+			"description": null
+		},
+		{
+			"id": "b239f0a5-743d-4d9c-9fc0-55a773f35a45",
+			"name": "myfirsttable",
+			"description": null
+		}
+	],
 	"jsclass": [],
 	"jsscript_group": [],
 	"theme": [],
@@ -35,11 +46,34 @@
 	"reports": [],
 	"api_authentication": [],
 	"api_group": [],
-	"tile": [],
+	"tile": [
+		{
+			"id": "9e6485b7-799d-4604-8506-bec5037e2b79",
+			"description": null,
+			"name": "My First Tile"
+		},
+		{
+			"id": "04f39de3-6b3e-46b0-b064-40bdcfb8da46",
+			"description": null,
+			"name": "My Second Tile"
+		}
+	],
 	"tile_layout": [],
-	"category": [],
+	"category": [
+		{
+			"id": "aa2a0b6e-286b-47f5-add8-d35ec127f901",
+			"description": null,
+			"name": "Main Group"
+		}
+	],
 	"tilegroup_layout": [],
-	"launchpad": [],
+	"launchpad": [
+		{
+			"id": "f077905d-bd20-41fe-9581-949ce632a3f1",
+			"name": "My-First-Launchpad",
+			"description": null
+		}
+	],
 	"launchpad_layout": [],
 	"certificates": [],
 	"role": [],

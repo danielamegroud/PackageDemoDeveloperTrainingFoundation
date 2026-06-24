@@ -1,0 +1,43 @@
+{
+	"id": "e7d3cf9e-c3ec-4691-986b-da682dce644b",
+	"createdAt": "2026-06-23T14:56:57.987Z",
+	"createdBy": "daniel",
+	"fields": [
+		{
+			"id": "0bf96c55-7b94-4bcd-ee39-ede29f563bab",
+			"fieldName": "name",
+			"fieldType": "text",
+			"isUnique": false
+		},
+		{
+			"id": "409c0c4b-4953-4910-f70e-5857150b659d",
+			"fieldName": "email",
+			"fieldType": "text",
+			"isUnique": false
+		},
+		{
+			"id": "39968db3-403f-4bd3-846f-3b68b18790ba",
+			"fieldName": "age",
+			"fieldType": "integer",
+			"isUnique": false
+		},
+		{
+			"id": "d6ac7ef2-325b-408b-a679-5bf200d398be",
+			"fieldName": "is_active",
+			"fieldType": "boolean",
+			"isUnique": false
+		}
+	],
+	"indices": [],
+	"foreignKeys": [],
+	"vectorStoreConfig": {},
+	"name": "mysecondtable",
+	"description": null,
+	"ver": "26.06.23.1458",
+	"enableAudit": false,
+	"includeDataInPackage": false,
+	"package": "981fac3f-221c-4e0c-8b83-381272e0b662",
+	"generationStrategy": "uuid",
+	"rolesRead": [],
+	"rolesWrite": []
+}
