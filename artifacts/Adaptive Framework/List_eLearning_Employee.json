@@ -1,0 +1,353 @@
+{
+	"id": "b7a7e719-1845-4401-84bd-363031a8bee8",
+	"createdAt": "2026-06-25T09:32:52.013Z",
+	"createdBy": "daniel",
+	"settings": {
+		"properties": {
+			"report": {
+				"showIcon": true,
+				"actionButtonLeft": false,
+				"hideHeader": false,
+				"iconButtonClose": "",
+				"textButtonClose": "Close",
+				"typeButtonClose": "Transparent",
+				"iconButtonCreate": "",
+				"textButtonCreate": "Create",
+				"typeButtonCreate": "Emphasized",
+				"iconButtonExport": "sap-icon://excel-attachment",
+				"textButtonExport": "",
+				"typeButtonExport": "Transparent",
+				"iconButtonImport": "sap-icon://fa-solid/file-import",
+				"textButtonImport": "",
+				"typeButtonImport": "Transparent",
+				"iconButtonMultiSelect": "",
+				"textButtonMultiSelect": "MultiSelect",
+				"typeButtonMultiSelect": "Emphasized",
+				"iconButtonMultiDelete": "",
+				"textButtonMultiDelete": "Delete",
+				"typeButtonMultiDelete": "Ghost",
+				"iconButtonRun": "",
+				"textButtonRun": "Update",
+				"typeButtonRun": "Emphasized",
+				"iconButtonEdit": "",
+				"textButtonEdit": "Edit",
+				"typeButtonEdit": "Emphasized",
+				"iconButtonDisplay": "",
+				"textButtonDisplay": "Display",
+				"typeButtonDisplay": "Emphasized",
+				"enableRun": true,
+				"enableCreate": true,
+				"enableClose": false,
+				"enableDelete": true,
+				"enableExport": true,
+				"enableImport": true,
+				"enableMultiSelect": false,
+				"enableEditDisplay": false,
+				"enableVariant": false,
+				"autoRun": true,
+				"autoRunFocus": true,
+				"searchLabel": "Search",
+				"searchPlaceholder": "",
+				"requiredFieldsToast": "Please fill in all required fields",
+				"textConfirmDelete": "Do you want to delete this entry? ",
+				"textConfirmDeleteMany": "Do you want to delete the selected entry/entries? ",
+				"titleConfirmDelete": "Delete",
+				"odataValueList": "Field does not have any OData ValueListReference",
+				"title": "Employees",
+				"subTitle": "Overview",
+				"avatarIcon": "sap-icon://far/circle-user",
+				"avatarBackgroundColor": "Accent2",
+				"_navigationItemPress": {
+					"destinationType": "F",
+					"openAs": "S",
+					"butType": "Success",
+					"fieldType": "Navigation",
+					"displayResponse": false,
+					"dialogHeader": true,
+					"destinationTargetF": "a55d7531-1f07-4eee-815d-fbdb1f2a73f9",
+					"keyField": []
+				},
+				"_navigationCreate": {
+					"destinationType": "F",
+					"openAs": "P",
+					"butType": "Success",
+					"fieldType": "Navigation",
+					"displayResponse": false,
+					"dialogHeader": true,
+					"destinationTargetF": "a55d7531-1f07-4eee-815d-fbdb1f2a73f9",
+					"keyField": []
+				}
+			},
+			"form": {
+				"enableCompact": false,
+				"enableExpandHeader": true,
+				"headerExpanded": true,
+				"headerPreserveState": false,
+				"enableSearchWildcard": false
+			},
+			"table": {
+				"enablePagination": false,
+				"paginationShowSelection": false,
+				"paginationRows": 25,
+				"showSeparators": "All",
+				"alternateRowColors": false,
+				"fixedLayout": false,
+				"inset": false,
+				"enableCompact": false,
+				"enableAutoPopin": false,
+				"enableAction1": false,
+				"enableAction2": false,
+				"enableAction3": false,
+				"enableAction4": false,
+				"enableAction5": false,
+				"action1Text": "",
+				"action1Type": "Transparent",
+				"action2Text": "",
+				"action2Type": "Transparent",
+				"action3Text": "",
+				"action3Type": "Transparent",
+				"action4Text": "",
+				"action4Type": "Transparent",
+				"action5Text": "",
+				"action5Type": "Transparent"
+			}
+		},
+		"fieldCatalog": [
+			{
+				"name": "city",
+				"label": "City",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "createdAt",
+				"label": "Created At",
+				"type": "timestamp",
+				"usage": "BOTH"
+			},
+			{
+				"name": "createdBy",
+				"label": "Created By",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "department",
+				"label": "Department",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "emailAddress",
+				"label": "Email Address",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "employeeReferenceNo",
+				"label": "Reference Number",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "employmentTime",
+				"label": "Employment Time",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "employmentType",
+				"label": "Employment Type",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "firstName",
+				"label": "First Name",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "hireDate",
+				"label": "Hire Date",
+				"type": "timestamp",
+				"usage": "BOTH"
+			},
+			{
+				"name": "lastName",
+				"label": "Last Name",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "nationality",
+				"label": "Nationality",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "phoneNumber",
+				"label": "Phone Number",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "postCode",
+				"label": "Post Code",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "role",
+				"label": "Role",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "salary",
+				"label": "Salary",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "streetAddress",
+				"label": "Street Address",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "updatedAt",
+				"label": "Updated At",
+				"type": "timestamp",
+				"usage": "BOTH"
+			},
+			{
+				"name": "updatedBy",
+				"label": "Updated By",
+				"type": "text",
+				"usage": "BOTH"
+			}
+		],
+		"fieldsSel": [
+			{
+				"name": "role",
+				"text": "Role",
+				"dynamicDataItems": [],
+				"visible": true,
+				"type": "MultiSelect"
+			}
+		],
+		"fieldsRun": [
+			{
+				"name": "firstName",
+				"text": "First Name",
+				"enableFilter": true,
+				"buttonType": "Transparent",
+				"formatCustomPairs": [
+					{
+						"text": "",
+						"key": ""
+					}
+				],
+				"popinDisplay": "Inline",
+				"enableSort": true,
+				"visible": true,
+				"type": ""
+			},
+			{
+				"name": "lastName",
+				"text": "Last Name",
+				"enableFilter": true,
+				"buttonType": "Transparent",
+				"formatCustomPairs": [
+					{
+						"text": "",
+						"key": ""
+					}
+				],
+				"popinDisplay": "Inline",
+				"enableSort": true,
+				"visible": true
+			},
+			{
+				"name": "role",
+				"text": "Role",
+				"enableFilter": true,
+				"buttonType": "Transparent",
+				"formatCustomPairs": [
+					{
+						"text": "",
+						"key": ""
+					}
+				],
+				"popinDisplay": "Inline",
+				"enableSort": true,
+				"visible": true
+			},
+			{
+				"name": "department",
+				"text": "Department",
+				"enableFilter": true,
+				"buttonType": "Transparent",
+				"formatCustomPairs": [
+					{
+						"text": "",
+						"key": ""
+					}
+				],
+				"popinDisplay": "Inline",
+				"enableSort": true,
+				"visible": true,
+				"formatter": "",
+				"valueType": "Rule",
+				"valueRule": "525c067a-deca-4839-9bc8-213086ac44d8"
+			},
+			{
+				"name": "hireDate",
+				"text": "Hire Date",
+				"enableFilter": true,
+				"buttonType": "Transparent",
+				"formatCustomPairs": [
+					{
+						"text": "",
+						"key": ""
+					}
+				],
+				"popinDisplay": "Inline",
+				"enableSort": true,
+				"visible": true,
+				"formatter": "date01",
+				"type": "DatePicker"
+			}
+		],
+		"defaultVariant": {
+			"id": "81a9af27-36f8-45fb-8e39-d3cf6769c13d",
+			"colOrder": "key_a_to_z",
+			"rowOrder": "key_a_to_z",
+			"row": [],
+			"column": [],
+			"val": [],
+			"inclusions": {},
+			"exclusions": {}
+		},
+		"table": "elearning_hr_demo_employees"
+	},
+	"name": "List_eLearning_Employee",
+	"description": "List Adaptive App with Multiselect filter and Date Formatting",
+	"group": "",
+	"type": "C",
+	"connectorid": "d7ee9396-bc6f-470f-ae14-b3fce8b96aea",
+	"scriptSel": null,
+	"scriptRun": null,
+	"tableid": null,
+	"ver": "26.06.25.1349",
+	"disabled": false,
+	"appType": "A",
+	"application": "neptunedxp_adaptive_list",
+	"package": "981fac3f-221c-4e0c-8b83-381272e0b662",
+	"roles": [],
+	"scriptSelObj": null,
+	"scriptRunObj": null,
+	"tableObj": null,
+	"i18n": []
+}

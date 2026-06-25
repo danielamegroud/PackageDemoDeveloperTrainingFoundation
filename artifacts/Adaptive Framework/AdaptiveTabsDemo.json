@@ -1,0 +1,113 @@
+{
+	"id": "ef48d88c-2739-4c06-8177-3c4eeff9e012",
+	"createdAt": "2026-06-25T08:49:40.933Z",
+	"createdBy": "daniel",
+	"settings": {
+		"properties": {
+			"report": {},
+			"form": {},
+			"table": {}
+		},
+		"fieldCatalog": [
+			{
+				"name": "name",
+				"label": "name",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "email",
+				"label": "email",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "age",
+				"label": "age",
+				"type": "integer",
+				"usage": "BOTH"
+			},
+			{
+				"name": "is_active",
+				"label": "is_active",
+				"type": "boolean",
+				"usage": "BOTH"
+			},
+			{
+				"name": "updatedAt",
+				"label": "Updated At",
+				"type": "timestamp",
+				"usage": "BOTH"
+			},
+			{
+				"name": "createdAt",
+				"label": "Created At",
+				"type": "timestamp",
+				"usage": "BOTH"
+			},
+			{
+				"name": "updatedBy",
+				"label": "Updated By",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "createdBy",
+				"label": "Created By",
+				"type": "text",
+				"usage": "BOTH"
+			}
+		],
+		"fieldsSel": [],
+		"fieldsRun": [
+			{
+				"name": "name",
+				"text": "name",
+				"enableFilter": true
+			},
+			{
+				"name": "email",
+				"text": "email",
+				"enableFilter": true
+			},
+			{
+				"name": "age",
+				"text": "age",
+				"enableFilter": true
+			},
+			{
+				"name": "is_active",
+				"text": "is_active",
+				"enableFilter": true
+			}
+		],
+		"defaultVariant": {
+			"id": "caae2088-4fb1-4b79-ade1-f35a72aed487",
+			"colOrder": "key_a_to_z",
+			"rowOrder": "key_a_to_z",
+			"row": [],
+			"column": [],
+			"val": [],
+			"inclusions": {},
+			"exclusions": {}
+		}
+	},
+	"name": "AdaptiveTabsDemo",
+	"description": "TestingTabs",
+	"group": "",
+	"type": "C",
+	"connectorid": "1dbf8bd4-dfe5-4beb-b38f-380565dd9278",
+	"scriptSel": null,
+	"scriptRun": null,
+	"tableid": null,
+	"ver": "26.06.25.0849",
+	"disabled": false,
+	"appType": "A",
+	"application": "neptunedxp_adaptive_tabs",
+	"package": "981fac3f-221c-4e0c-8b83-381272e0b662",
+	"roles": [],
+	"scriptSelObj": null,
+	"scriptRunObj": null,
+	"tableObj": null,
+	"i18n": []
+}

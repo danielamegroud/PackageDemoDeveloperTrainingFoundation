@@ -1,0 +1,69 @@
+{
+	"id": "525c067a-deca-4839-9bc8-213086ac44d8",
+	"createdAt": "2026-06-25T10:33:29.527Z",
+	"createdBy": "daniel",
+	"interface": [
+		{
+			"id": "ffec7056-d72a-49a5-a4e5-8c884b900bea",
+			"parent": "",
+			"name": "department",
+			"objectType": "string",
+			"description": ""
+		}
+	],
+	"rules": [
+		{
+			"id": "b93d9b98-f641-4042-8805-bbf4f67a8fa2",
+			"result": "IT",
+			"items": [
+				{
+					"id": "d8bddd0e-2aa5-43a3-b0f6-0a28d0e524ee",
+					"field": "ffec7056-d72a-49a5-a4e5-8c884b900bea",
+					"operator": "equal",
+					"value": "100"
+				}
+			]
+		},
+		{
+			"id": "e90c9149-ef8d-4ad0-b2c6-02c75ba5dd92",
+			"result": "HR",
+			"items": [
+				{
+					"id": "c764da7d-7c5c-416e-ba1d-fb0cffcee6a7",
+					"field": "ffec7056-d72a-49a5-a4e5-8c884b900bea",
+					"operator": "equal",
+					"value": "200"
+				}
+			]
+		},
+		{
+			"id": "02e1b75b-5d61-4257-c40d-2d54635f7a78",
+			"result": "Finance",
+			"items": [
+				{
+					"id": "c112cbbe-705d-41f2-8f66-bc4974ff68ab",
+					"field": "ffec7056-d72a-49a5-a4e5-8c884b900bea",
+					"operator": "equal",
+					"value": "300"
+				}
+			]
+		},
+		{
+			"id": "f70093b8-a2e6-4e1c-e999-e920b3628537",
+			"result": "Marketing",
+			"items": [
+				{
+					"id": "f2812c25-d4b8-464b-9cf9-add777f57d9c",
+					"field": "ffec7056-d72a-49a5-a4e5-8c884b900bea",
+					"operator": "equal",
+					"value": "400"
+				}
+			]
+		}
+	],
+	"name": "department||rule",
+	"description": "",
+	"ver": "26.06.25.1042",
+	"package": "981fac3f-221c-4e0c-8b83-381272e0b662",
+	"roles": []
+}

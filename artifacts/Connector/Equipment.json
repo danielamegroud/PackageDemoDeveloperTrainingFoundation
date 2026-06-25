@@ -1,0 +1,17 @@
+{
+	"id": "953bdaf0-7d06-4653-969d-db7b484caeb6",
+	"createdAt": "2026-06-25T14:14:51.349Z",
+	"createdBy": "daniel",
+	"settings": {
+		"tableid": "3299afd2-0816-ec11-ae72-0050f255283a",
+		"hasDocumentation": false
+	},
+	"documentation": {},
+	"name": "Equipment",
+	"description": null,
+	"group": null,
+	"type": "T",
+	"ver": "26.06.25.1414",
+	"disabled": false,
+	"package": "981fac3f-221c-4e0c-8b83-381272e0b662"
+}

@@ -24,6 +24,7 @@
 		}
 	],
 	"componentInterface": [],
+	"iaSettings": null,
 	"ver": "26.06.22.1442",
 	"application": "firstdemo",
 	"title": "",
@@ -66,6 +67,7 @@
 	"tabWidth": null,
 	"printWidth": null,
 	"generateVersionOnActivation": false,
+	"enableIntelligence": false,
 	"activationHistoryCount": 0,
 	"package": "981fac3f-221c-4e0c-8b83-381272e0b662",
 	"apis": [],

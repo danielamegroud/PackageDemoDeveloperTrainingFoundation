@@ -1,0 +1,17 @@
+{
+	"id": "1dbf8bd4-dfe5-4beb-b38f-380565dd9278",
+	"createdAt": "2026-06-24T16:28:34.078Z",
+	"createdBy": "daniel",
+	"settings": {
+		"hasDocumentation": false,
+		"tableid": "e7d3cf9e-c3ec-4691-986b-da682dce644b"
+	},
+	"documentation": {},
+	"name": "mysecondtable",
+	"description": null,
+	"group": null,
+	"type": "T",
+	"ver": "26.06.24.1628",
+	"disabled": false,
+	"package": "981fac3f-221c-4e0c-8b83-381272e0b662"
+}

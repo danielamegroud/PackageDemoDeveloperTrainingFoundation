@@ -1,0 +1,271 @@
+{
+	"id": "d080caa2-02ae-4d27-8bc5-0c3bec2e506c",
+	"createdAt": "2026-06-25T14:16:42.659Z",
+	"createdBy": "daniel",
+	"settings": {
+		"properties": {
+			"report": {
+				"showIcon": true,
+				"actionButtonLeft": false,
+				"hideHeader": false,
+				"iconButtonClose": "",
+				"textButtonClose": "Close",
+				"typeButtonClose": "Transparent",
+				"iconButtonCreate": "",
+				"textButtonCreate": "Create",
+				"typeButtonCreate": "Emphasized",
+				"iconButtonExport": "sap-icon://excel-attachment",
+				"textButtonExport": "",
+				"typeButtonExport": "Transparent",
+				"iconButtonImport": "sap-icon://fa-solid/file-import",
+				"textButtonImport": "",
+				"typeButtonImport": "Transparent",
+				"iconButtonMultiSelect": "",
+				"textButtonMultiSelect": "MultiSelect",
+				"typeButtonMultiSelect": "Emphasized",
+				"iconButtonMultiDelete": "",
+				"textButtonMultiDelete": "Delete",
+				"typeButtonMultiDelete": "Ghost",
+				"iconButtonRun": "",
+				"textButtonRun": "Update",
+				"typeButtonRun": "Emphasized",
+				"iconButtonEdit": "",
+				"textButtonEdit": "Edit",
+				"typeButtonEdit": "Emphasized",
+				"iconButtonDisplay": "",
+				"textButtonDisplay": "Display",
+				"typeButtonDisplay": "Emphasized",
+				"enableRun": true,
+				"enableCreate": false,
+				"enableClose": false,
+				"enableDelete": false,
+				"enableExport": false,
+				"enableImport": false,
+				"enableMultiSelect": false,
+				"enableEditDisplay": false,
+				"enableVariant": false,
+				"autoRun": true,
+				"autoRunFocus": true,
+				"searchLabel": "Search",
+				"searchPlaceholder": "",
+				"requiredFieldsToast": "Please fill in all required fields",
+				"textConfirmDelete": "Do you want to delete this entry? ",
+				"textConfirmDeleteMany": "Do you want to delete the selected entry/entries? ",
+				"titleConfirmDelete": "Delete",
+				"odataValueList": "Field does not have any OData ValueListReference",
+				"title": "Equipment List"
+			},
+			"form": {
+				"enableCompact": false,
+				"enableExpandHeader": true,
+				"headerExpanded": true,
+				"headerPreserveState": false,
+				"enableSearchWildcard": false
+			},
+			"table": {
+				"enablePagination": true,
+				"paginationShowSelection": false,
+				"paginationRows": "10",
+				"showSeparators": "All",
+				"alternateRowColors": false,
+				"fixedLayout": false,
+				"inset": false,
+				"enableCompact": false,
+				"enableAutoPopin": false,
+				"enableAction1": false,
+				"enableAction2": false,
+				"enableAction3": false,
+				"enableAction4": false,
+				"enableAction5": false,
+				"action1Text": "",
+				"action1Type": "Transparent",
+				"action2Text": "",
+				"action2Type": "Transparent",
+				"action3Text": "",
+				"action3Type": "Transparent",
+				"action4Text": "",
+				"action4Type": "Transparent",
+				"action5Text": "",
+				"action5Type": "Transparent"
+			}
+		},
+		"fieldCatalog": [
+			{
+				"name": "assigned_for_checking",
+				"label": "assigned_for_checking",
+				"type": "boolean",
+				"usage": "BOTH"
+			},
+			{
+				"name": "assigned_to",
+				"label": "assigned_to",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "checkup_date",
+				"label": "checkup_date",
+				"type": "timestamp",
+				"usage": "BOTH"
+			},
+			{
+				"name": "checkup_interval",
+				"label": "checkup_interval",
+				"type": "integer",
+				"usage": "BOTH"
+			},
+			{
+				"name": "createdAt",
+				"label": "Created At",
+				"type": "timestamp",
+				"usage": "BOTH"
+			},
+			{
+				"name": "createdBy",
+				"label": "Created By",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "days_until_check",
+				"label": "Maintained automatically",
+				"type": "integer",
+				"usage": "BOTH"
+			},
+			{
+				"name": "latitude",
+				"label": "latitude",
+				"type": "integer",
+				"usage": "BOTH"
+			},
+			{
+				"name": "longitude",
+				"label": "longitude",
+				"type": "integer",
+				"usage": "BOTH"
+			},
+			{
+				"name": "name",
+				"label": "name",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "part_number",
+				"label": "part_number",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "pdf",
+				"label": "pdf",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "updatedAt",
+				"label": "Updated At",
+				"type": "timestamp",
+				"usage": "BOTH"
+			},
+			{
+				"name": "updatedBy",
+				"label": "Updated By",
+				"type": "text",
+				"usage": "BOTH"
+			}
+		],
+		"fieldsSel": [],
+		"fieldsRun": [
+			{
+				"name": "name",
+				"text": "name",
+				"enableFilter": true,
+				"buttonType": "Transparent",
+				"formatCustomPairs": [
+					{
+						"text": "",
+						"key": ""
+					}
+				],
+				"popinDisplay": "Inline",
+				"enableSort": true,
+				"visible": true
+			},
+			{
+				"name": "part_number",
+				"text": "part_number",
+				"enableFilter": true,
+				"buttonType": "Transparent",
+				"formatCustomPairs": [
+					{
+						"text": "",
+						"key": ""
+					}
+				],
+				"popinDisplay": "Inline",
+				"enableSort": true,
+				"visible": true
+			},
+			{
+				"name": "latitude",
+				"text": "latitude",
+				"enableFilter": true,
+				"buttonType": "Transparent",
+				"formatCustomPairs": [
+					{
+						"text": "",
+						"key": ""
+					}
+				],
+				"popinDisplay": "Inline",
+				"enableSort": true,
+				"visible": true
+			},
+			{
+				"name": "longitude",
+				"text": "longitude",
+				"enableFilter": true,
+				"buttonType": "Transparent",
+				"formatCustomPairs": [
+					{
+						"text": "",
+						"key": ""
+					}
+				],
+				"popinDisplay": "Inline",
+				"enableSort": true,
+				"visible": true
+			}
+		],
+		"defaultVariant": {
+			"id": "91dd87e9-871c-4bb5-eb56-258352b0376e",
+			"colOrder": "key_a_to_z",
+			"rowOrder": "key_a_to_z",
+			"row": [],
+			"column": [],
+			"val": [],
+			"inclusions": {},
+			"exclusions": {}
+		},
+		"table": "equipment"
+	},
+	"name": "EquipmentList",
+	"description": "Equipment",
+	"group": "",
+	"type": "C",
+	"connectorid": "de152833-9595-4666-90c1-28c3e7fb365d",
+	"scriptSel": null,
+	"scriptRun": null,
+	"tableid": null,
+	"ver": "26.06.25.1439",
+	"disabled": false,
+	"appType": "A",
+	"application": "neptunedxp_adaptive_list",
+	"package": "981fac3f-221c-4e0c-8b83-381272e0b662",
+	"roles": [],
+	"scriptSelObj": null,
+	"scriptRunObj": null,
+	"tableObj": null,
+	"i18n": []
+}

@@ -8,7 +8,7 @@
 	},
 	"name": "PackageDemo",
 	"description": "Developer Training Course - Creating First Package",
-	"ver": "26.06.22.1529",
+	"ver": "26.06.24.1009",
 	"enableCICD": true,
 	"internalReadOnly": false,
 	"oeVersion": null,
@@ -18,6 +18,12 @@
 		{
 			"id": "46a93214-9c1a-4fc8-87f3-41c7a29ed975",
 			"application": "firstdemo",
+			"title": "",
+			"description": ""
+		},
+		{
+			"id": "3cbdd24e-0dad-41a8-9336-117024e831cc",
+			"application": "app_designer_demo",
 			"title": "",
 			"description": ""
 		}
@@ -42,11 +48,59 @@
 	"theme": [],
 	"theme_generator": [],
 	"pdf": [],
-	"rulesengine": [],
-	"reports": [],
+	"rulesengine": [
+		{
+			"id": "525c067a-deca-4839-9bc8-213086ac44d8",
+			"name": "department||rule",
+			"description": ""
+		}
+	],
+	"reports": [
+		{
+			"id": "faa2be88-d128-4358-a8de-7873b27020d8",
+			"name": "employee_list",
+			"description": "Adaptive App for listing all the employees",
+			"application": "neptunedxp_adaptive_list"
+		},
+		{
+			"id": "ef48d88c-2739-4c06-8177-3c4eeff9e012",
+			"name": "AdaptiveTabsDemo",
+			"description": "TestingTabs",
+			"application": "neptunedxp_adaptive_tabs"
+		},
+		{
+			"id": "db5fed0e-db6a-4dd1-a9b6-55643fb6738e",
+			"name": "TileChartDemo",
+			"description": "Testing Charts for the first Time",
+			"application": "neptunedxp_adaptive_tile_chart"
+		},
+		{
+			"id": "d080caa2-02ae-4d27-8bc5-0c3bec2e506c",
+			"name": "EquipmentList",
+			"description": "Equipment",
+			"application": "neptunedxp_adaptive_list"
+		},
+		{
+			"id": "b7a7e719-1845-4401-84bd-363031a8bee8",
+			"name": "List_eLearning_Employee",
+			"description": "List Adaptive App with Multiselect filter and Date Formatting",
+			"application": "neptunedxp_adaptive_list"
+		},
+		{
+			"id": "a55d7531-1f07-4eee-815d-fbdb1f2a73f9",
+			"name": "Edit_Employees",
+			"description": "Edit_Employees_Demo",
+			"application": "neptunedxp_adaptive_edit"
+		}
+	],
 	"api_authentication": [],
 	"api_group": [],
 	"tile": [
+		{
+			"id": "c2a13a59-899e-419b-9d44-a91f5b867194",
+			"description": null,
+			"name": "elearning_HR_barchart_Tile"
+		},
 		{
 			"id": "9e6485b7-799d-4604-8506-bec5037e2b79",
 			"description": null,
@@ -61,6 +115,11 @@
 	"tile_layout": [],
 	"category": [
 		{
+			"id": "f4bb0269-aa89-41a7-be80-5833f8142463",
+			"description": null,
+			"name": "elearning_HR_analytics_Tile_Group"
+		},
+		{
 			"id": "aa2a0b6e-286b-47f5-add8-d35ec127f901",
 			"description": null,
 			"name": "Main Group"
@@ -71,6 +130,11 @@
 		{
 			"id": "f077905d-bd20-41fe-9581-949ce632a3f1",
 			"name": "My-First-Launchpad",
+			"description": null
+		},
+		{
+			"id": "74be436f-37ff-4668-b9ee-3929eb00190e",
+			"name": "Second-Launchpad",
 			"description": null
 		}
 	],
@@ -83,7 +147,18 @@
 	"department": [],
 	"script_scheduler": [],
 	"wf_definition": [],
-	"connector": [],
+	"connector": [
+		{
+			"id": "953bdaf0-7d06-4653-969d-db7b484caeb6",
+			"name": "Equipment",
+			"description": null
+		},
+		{
+			"id": "1dbf8bd4-dfe5-4beb-b38f-380565dd9278",
+			"name": "mysecondtable",
+			"description": null
+		}
+	],
 	"i18n": [],
 	"events": [],
 	"code_snippets": [],

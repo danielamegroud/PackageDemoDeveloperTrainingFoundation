@@ -1,0 +1,236 @@
+{
+	"id": "faa2be88-d128-4358-a8de-7873b27020d8",
+	"createdAt": "2026-06-24T16:35:51.967Z",
+	"createdBy": "daniel",
+	"settings": {
+		"properties": {
+			"report": {
+				"showIcon": true,
+				"actionButtonLeft": false,
+				"hideHeader": false,
+				"iconButtonClose": "",
+				"textButtonClose": "Close",
+				"typeButtonClose": "Emphasized",
+				"iconButtonCreate": "",
+				"textButtonCreate": "Create",
+				"typeButtonCreate": "Emphasized",
+				"iconButtonExport": "sap-icon://excel-attachment",
+				"textButtonExport": "",
+				"typeButtonExport": "Transparent",
+				"iconButtonImport": "sap-icon://fa-solid/file-import",
+				"textButtonImport": "",
+				"typeButtonImport": "Transparent",
+				"iconButtonMultiSelect": "",
+				"textButtonMultiSelect": "MultiSelect",
+				"typeButtonMultiSelect": "Emphasized",
+				"iconButtonMultiDelete": "",
+				"textButtonMultiDelete": "Delete",
+				"typeButtonMultiDelete": "Ghost",
+				"iconButtonRun": "",
+				"textButtonRun": "Update",
+				"typeButtonRun": "Emphasized",
+				"iconButtonEdit": "",
+				"textButtonEdit": "Edit",
+				"typeButtonEdit": "Emphasized",
+				"iconButtonDisplay": "",
+				"textButtonDisplay": "Display",
+				"typeButtonDisplay": "Emphasized",
+				"enableRun": true,
+				"enableCreate": true,
+				"enableClose": true,
+				"enableDelete": true,
+				"enableExport": true,
+				"enableImport": false,
+				"enableMultiSelect": false,
+				"enableEditDisplay": false,
+				"enableVariant": false,
+				"autoRun": false,
+				"autoRunFocus": false,
+				"searchLabel": "Search",
+				"searchPlaceholder": "",
+				"requiredFieldsToast": "Please fill in all required fields",
+				"textConfirmDelete": "Do you want to delete this entry? ",
+				"textConfirmDeleteMany": "Do you want to delete the selected entry/entries? ",
+				"titleConfirmDelete": "Delete",
+				"odataValueList": "Field does not have any OData ValueListReference",
+				"title": "Employees List"
+			},
+			"form": {
+				"enableCompact": false,
+				"enableExpandHeader": true,
+				"headerExpanded": true,
+				"headerPreserveState": false,
+				"enableSearchWildcard": false
+			},
+			"table": {
+				"enablePagination": false,
+				"paginationShowSelection": false,
+				"paginationRows": 25,
+				"showSeparators": "All",
+				"alternateRowColors": false,
+				"fixedLayout": false,
+				"inset": false,
+				"enableCompact": false,
+				"enableAutoPopin": false,
+				"enableAction1": false,
+				"enableAction2": false,
+				"enableAction3": false,
+				"enableAction4": false,
+				"enableAction5": false,
+				"action1Text": "",
+				"action1Type": "Transparent",
+				"action2Text": "",
+				"action2Type": "Transparent",
+				"action3Text": "",
+				"action3Type": "Transparent",
+				"action4Text": "",
+				"action4Type": "Transparent",
+				"action5Text": "",
+				"action5Type": "Transparent"
+			}
+		},
+		"fieldCatalog": [
+			{
+				"name": "age",
+				"label": "age",
+				"type": "integer",
+				"usage": "BOTH"
+			},
+			{
+				"name": "createdAt",
+				"label": "Created At",
+				"type": "timestamp",
+				"usage": "BOTH"
+			},
+			{
+				"name": "createdBy",
+				"label": "Created By",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "email",
+				"label": "email",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "is_active",
+				"label": "is_active",
+				"type": "boolean",
+				"usage": "BOTH"
+			},
+			{
+				"name": "name",
+				"label": "name",
+				"type": "text",
+				"usage": "BOTH"
+			},
+			{
+				"name": "updatedAt",
+				"label": "Updated At",
+				"type": "timestamp",
+				"usage": "BOTH"
+			},
+			{
+				"name": "updatedBy",
+				"label": "Updated By",
+				"type": "text",
+				"usage": "BOTH"
+			}
+		],
+		"fieldsSel": [],
+		"fieldsRun": [
+			{
+				"name": "name",
+				"text": "name",
+				"enableFilter": true,
+				"buttonType": "Transparent",
+				"formatCustomPairs": [
+					{
+						"text": "",
+						"key": ""
+					}
+				],
+				"popinDisplay": "Inline",
+				"enableSort": true,
+				"visible": true,
+				"type": "Button"
+			},
+			{
+				"name": "email",
+				"text": "email",
+				"enableFilter": true,
+				"buttonType": "Transparent",
+				"formatCustomPairs": [
+					{
+						"text": "",
+						"key": ""
+					}
+				],
+				"popinDisplay": "Inline",
+				"enableSort": true,
+				"visible": true
+			},
+			{
+				"name": "age",
+				"text": "age",
+				"enableFilter": true,
+				"buttonType": "Transparent",
+				"formatCustomPairs": [
+					{
+						"text": "",
+						"key": ""
+					}
+				],
+				"popinDisplay": "Inline",
+				"enableSort": true,
+				"visible": true
+			},
+			{
+				"name": "is_active",
+				"text": "is_active",
+				"enableFilter": true,
+				"buttonType": "Transparent",
+				"formatCustomPairs": [
+					{
+						"text": "",
+						"key": ""
+					}
+				],
+				"popinDisplay": "Inline",
+				"enableSort": true,
+				"visible": true
+			}
+		],
+		"defaultVariant": {
+			"id": "4546e0eb-227d-44b0-cb87-80cf3a01e52c",
+			"colOrder": "key_a_to_z",
+			"rowOrder": "key_a_to_z",
+			"row": [],
+			"column": [],
+			"val": [],
+			"inclusions": {},
+			"exclusions": {}
+		},
+		"table": "mysecondtable"
+	},
+	"name": "employee_list",
+	"description": "Adaptive App for listing all the employees",
+	"group": "",
+	"type": "C",
+	"connectorid": "1dbf8bd4-dfe5-4beb-b38f-380565dd9278",
+	"scriptSel": null,
+	"scriptRun": null,
+	"tableid": null,
+	"ver": "26.06.25.0810",
+	"disabled": false,
+	"appType": "A",
+	"application": "neptunedxp_adaptive_list",
+	"package": "981fac3f-221c-4e0c-8b83-381272e0b662",
+	"roles": [],
+	"scriptSelObj": null,
+	"scriptRunObj": null,
+	"tableObj": null,
+	"i18n": []
+}

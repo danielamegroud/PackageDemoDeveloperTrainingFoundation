@@ -1,0 +1,279 @@
+{
+	"id": "3cbdd24e-0dad-41a8-9336-117024e831cc",
+	"createdAt": "2026-06-25T14:49:16.334Z",
+	"createdBy": "daniel",
+	"objects": [
+		{
+			"fieldNo": "790028b2-87b9-4125-80a3-a0e01f9ad4f3",
+			"fieldName": "App",
+			"fieldParent": 0,
+			"fieldType": "sap.m.App",
+			"script": "",
+			"request": [],
+			"response": [],
+			"attributes": [],
+			"data": [
+				{
+					"fieldNo": "ac25999e-e372-4291-da86-212d4ac11858",
+					"fieldName": "Page",
+					"fieldParent": "790028b2-87b9-4125-80a3-a0e01f9ad4f3",
+					"fieldType": "sap.m.Page",
+					"script": "",
+					"request": [],
+					"response": [],
+					"attributes": [
+						{
+							"attribute": "title",
+							"grouping": "Properties",
+							"value": "FormPage",
+							"script": "",
+							"translation": []
+						},
+						{
+							"attribute": "titleAlignment",
+							"grouping": "Properties",
+							"value": "Center",
+							"script": "",
+							"translation": []
+						}
+					],
+					"data": [
+						{
+							"fieldNo": "70b3e861-38a9-41ff-b8d3-e4c75aaa7c19",
+							"fieldName": "SimpleForm",
+							"fieldParent": "ac25999e-e372-4291-da86-212d4ac11858",
+							"fieldType": "sap.ui.layout.form.SimpleForm",
+							"script": "",
+							"request": [],
+							"response": [],
+							"attributes": [
+								{
+									"attribute": "editable",
+									"grouping": "Properties",
+									"value": "true",
+									"script": "",
+									"translation": []
+								}
+							],
+							"data": [
+								{
+									"fieldNo": "be99dc8f-a2cd-47d8-812c-58659d0b5aee",
+									"fieldName": "LabelFirstName",
+									"fieldParent": "70b3e861-38a9-41ff-b8d3-e4c75aaa7c19",
+									"fieldType": "sap.m.Label",
+									"script": "",
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "text",
+											"grouping": "Properties",
+											"value": "First Name",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": []
+								},
+								{
+									"fieldNo": "540bac1a-97fe-4792-dafd-cbf02974db6c",
+									"fieldName": "InputFirstName",
+									"fieldParent": "70b3e861-38a9-41ff-b8d3-e4c75aaa7c19",
+									"fieldType": "sap.m.Input",
+									"script": "",
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "placeholder",
+											"grouping": "Properties",
+											"value": "Type your name",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "required",
+											"grouping": "Properties",
+											"value": "true",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": []
+								}
+							]
+						},
+						{
+							"fieldNo": "37268bcd-1a04-45b2-f82a-9dace97227a3",
+							"fieldName": "oBarFooter",
+							"fieldParent": "ac25999e-e372-4291-da86-212d4ac11858",
+							"fieldType": "sap.m.Bar",
+							"script": "",
+							"request": [],
+							"response": [],
+							"attributes": [
+								{
+									"attribute": "position",
+									"grouping": "Parent",
+									"value": "setFooter",
+									"script": "",
+									"translation": []
+								}
+							],
+							"data": [
+								{
+									"fieldNo": "04a737a6-c704-47c8-984f-99108198ecaa",
+									"fieldName": "Middle",
+									"fieldParent": "37268bcd-1a04-45b2-f82a-9dace97227a3",
+									"fieldType": "neptune.BarContent",
+									"script": "",
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "position",
+											"grouping": "Parent",
+											"value": "ContentMiddle",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": [
+										{
+											"fieldNo": "662c382b-8970-40fe-cde9-cfd5c45ba056",
+											"fieldName": "ButtonSubmit",
+											"fieldParent": "04a737a6-c704-47c8-984f-99108198ecaa",
+											"fieldType": "sap.m.Button",
+											"script": "",
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "press",
+													"grouping": "Events",
+													"value": "Anonymous Function",
+													"script": "file://event/sap.m.Button/ButtonSubmit/press.js",
+													"language": "javascript",
+													"translation": []
+												},
+												{
+													"attribute": "text",
+													"grouping": "Properties",
+													"value": "Submit",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "icon",
+													"grouping": "Properties",
+													"value": "sap-icon://accept",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": []
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"fieldNo": "95021dfb-79b0-4770-8240-abaa90285557",
+					"fieldName": "PageSuccess",
+					"fieldParent": "790028b2-87b9-4125-80a3-a0e01f9ad4f3",
+					"fieldType": "sap.m.Page",
+					"script": "",
+					"request": [],
+					"response": [],
+					"attributes": [
+						{
+							"attribute": "title",
+							"grouping": "Properties",
+							"value": "Sucess",
+							"script": "",
+							"translation": []
+						},
+						{
+							"attribute": "navButtonPress",
+							"grouping": "Events",
+							"value": "App.backToPage(Page);",
+							"script": "App.backToPage(Page);",
+							"language": "javascript",
+							"translation": []
+						},
+						{
+							"attribute": "showNavButton",
+							"grouping": "Properties",
+							"value": "true",
+							"script": "",
+							"translation": []
+						}
+					],
+					"data": []
+				}
+			]
+		},
+		{
+			"fieldNo": 99999,
+			"data": []
+		},
+		{
+			"fieldNo": 99998,
+			"data": []
+		}
+	],
+	"componentInterface": [],
+	"iaSettings": {
+		"denylist": [],
+		"allowlist": []
+	},
+	"ver": "26.06.25.1559",
+	"application": "app_designer_demo",
+	"title": "",
+	"description": "",
+	"enableFileStorage": false,
+	"enableManifest": false,
+	"enableStylesheet": false,
+	"enableObfuscate": false,
+	"onlyRunLaunchpad": false,
+	"disabled": false,
+	"loadLaunchpadCode": null,
+	"loadApplicationCode": null,
+	"appType": "A",
+	"ui5_m": true,
+	"ui5_f": false,
+	"ui5_table": false,
+	"ui5_tnt": false,
+	"ui5_uxap": false,
+	"ui5_integration": false,
+	"ui5_chart": false,
+	"ui5_dxp_ui": false,
+	"ui5_theme": "",
+	"ui5_version": "",
+	"ui5_language": null,
+	"ui5_url": "",
+	"cus_theme": "",
+	"css": "",
+	"compiledCss": "",
+	"header": "",
+	"manifest": "",
+	"globalScript": null,
+	"deleted": false,
+	"libHighchart": false,
+	"libHighmap": false,
+	"publicAccess": false,
+	"ui5_bootstrap": false,
+	"ui5_ionic": false,
+	"useV2AppHandler": false,
+	"compilerTarget": 3,
+	"tabWidth": null,
+	"printWidth": null,
+	"generateVersionOnActivation": false,
+	"enableIntelligence": false,
+	"activationHistoryCount": 0,
+	"package": "981fac3f-221c-4e0c-8b83-381272e0b662",
+	"apis": [],
+	"i18n": []
+}
