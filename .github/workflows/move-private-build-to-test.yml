@@ -1,0 +1,35 @@
+name: Move private build to test
+
+on:
+  workflow_dispatch:
+    inputs:
+      build_commit_sha:
+        description: 'Build Commit SHA (Copy from step 2)'
+        required: true
+        type: string
+      build_name:
+        description: 'Provide name of the build (e.g., v24.14.2-rc.5)'
+        required: true
+        type: string
+      folder_name:
+        description: 'Provide name of the folder to be published (e.g., v24.14.2-rc.5)'
+        required: true
+        type: string
+
+jobs:
+  move-build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.inputs.build_commit_sha }}
+
+      - name: Simulando envio para o Test Portal
+        run: |
+          echo "A iniciar a transferência do Release Candidate..."
+          echo "A ler a branch de origem..."
+          echo "Código SHA identificado: ${{ github.event.inputs.build_commit_sha }}"
+          echo "Nome do candidato: ${{ github.event.inputs.build_name }}"
+          echo "A publicar na pasta de destino: public/test-portal/${{ github.event.inputs.folder_name }}"
+          echo "Sucesso! O binário está agora disponível no Test Portal."
